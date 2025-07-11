@@ -1,0 +1,56 @@
+
+
+body {
+  background-color: #eedce5; /* light pink background */
+  font-family: 'Segoe UI', sans-serif;
+}
+
+h1, h2, h5 {
+  color: #4b4453; /* soft bold gray-purple for headings */
+}
+
+.section-title {
+  color: #118599; /* pastel purple */
+}
+
+a.btn-primary, .btn.btn-primary {
+  background-color: #ec7676; /* plum-like pastel */
+  border: none;
+  color: white;
+}
+
+a.btn-primary:hover, .btn.btn-primary:hover {
+  background-color: #01160c;
+}
+
+.pastel-card {
+  background-color: #68ad79; /* very light pastel pink */
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 4px 8px rgba(221, 160, 221, 0.2); /* pastel plum shadow */
+  transition: transform 0.2s ease-in-out;
+}
+
+.pastel-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 12px rgba(221, 160, 221, 0.4);
+}
+
+.navbar {
+  background-color: #f5aaaa !important; /* navbar pastel pink */
+}
+
+.nav-link {
+  color: #722a99 !important;
+  font-weight: 500;
+}
+
+.nav-link:hover {
+  color: #bb6786 !important;
+}
+
+.animate__animated animate__fadeInDown{
+  display :flex;
+  justify-content:center;
+  align-items:center;
+}
